@@ -3,10 +3,9 @@ import {StyleSheet} from 'react-native';
 export default StyleSheet.create({
   container: {
     backgroundColor: 'white',
-    height: 80,
-    padding: 20,
+    padding: 10,
     justifyContent: 'space-between',
-    alignItems: 'flex-start',
+    alignItems: 'center',
     flexDirection: 'row',
   },
   logoImg: {
