@@ -5,15 +5,17 @@ import styles from './styles';
 
 const Stories = () => {
   return (
-    <ScrollView horizontal contentContainerStyle={styles.container}>
-      <Avatar />
-      <Avatar />
-      <Avatar />
-      <Avatar />
-      <Avatar />
-      <Avatar />
-      <Avatar />
-    </ScrollView>
+    <View>
+      <ScrollView horizontal>
+        <Avatar />
+        <Avatar />
+        <Avatar />
+        <Avatar />
+        <Avatar />
+        <Avatar />
+        <Avatar />
+      </ScrollView>
+    </View>
   );
 };
 
